@@ -1,0 +1,49 @@
+.row {
+    border: 1px solid black;
+}
+
+.col {
+    border: 1px dotted black;
+}
+
+.rw1 {
+    height: 130px;
+}
+.rw2 {
+    height: 486px;
+}
+
+.rw3 {
+    height: 300px;
+}
+
+.cat {
+    width: 700px;
+}
+
+/* Button */
+
+button {
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 100px;
+    background-color: #8e7bff;
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+  
+  button:hover {
+    background-color: #8e7bff;
+    box-shadow: 0 0 20px #5743c7;
+    transform: scale(1.1);
+  }
+  
+  button:active {
+    background-color: #5743c7;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+  }
