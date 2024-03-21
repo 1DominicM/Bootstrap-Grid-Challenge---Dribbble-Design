@@ -4,13 +4,23 @@
 
 .col {
     border: 1px dotted black;
+    align-items: center;
+    text-align: center;
 }
 
 .rw1 {
-    height: 130px;
+
+    font-weight: bold;
+
 }
-.rw2 {
-    height: 486px;
+
+#sure {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+p {
+    margin-top: 40px;
 }
 
 .rw3 {
@@ -18,12 +28,12 @@
 }
 
 .cat {
-    width: 700px;
+    width: 800px;
 }
 
 /* Button */
 
-button {
+.bt1 {
     padding: 12.5px 30px;
     border: 0;
     border-radius: 100px;
@@ -32,16 +42,46 @@ button {
     font-weight: Bold;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
+    width: 8em;
+    margin-top: 25px;
   }
   
-  button:hover {
+  .bt1:hover {
     background-color: #8e7bff;
     box-shadow: 0 0 20px #5743c7;
     transform: scale(1.1);
   }
   
-  button:active {
+  .bt1:active {
     background-color: #5743c7;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+  }
+
+  .bt2 {
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 100px;
+    background-color: #80ea99;
+    color: #000000;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    align-self: center;
+    height: 50px;
+    padding-bottom: 40px;
+  }
+  
+  .bt2:hover {
+    background-color: #80ea99;
+    box-shadow: 0 0 20px #4caf63;
+    transform: scale(1.1);
+  }
+  
+  .bt2:active {
+    background-color: #4caf63;
     transition: all 0.25s;
     -webkit-transition: all 0.25s;
     box-shadow: none;
