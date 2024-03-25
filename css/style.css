@@ -1,3 +1,4 @@
+/*
 .row {
     border: 1px solid black;
 }
@@ -7,20 +8,25 @@
     align-items: center;
     text-align: center;
 }
-
+*/
 .rw1 {
 
     font-weight: bold;
+    border-bottom: 1px solid  #000000;
 
 }
 
 #sure {
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bolder;
 }
 
 p {
-    margin-top: 40px;
+
+}
+
+.rw2 {
+  margin-top: 50px;
 }
 
 .rw3 {
@@ -28,10 +34,12 @@ p {
 }
 
 .cat {
-    width: 800px;
+    width: 900px;
 }
 
 /* Button */
+
+
 
 .bt1 {
     padding: 12.5px 30px;
@@ -43,7 +51,6 @@ p {
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
     width: 8em;
-    margin-top: 25px;
   }
   
   .bt1:hover {
@@ -86,4 +93,28 @@ p {
     -webkit-transition: all 0.25s;
     box-shadow: none;
     transform: scale(0.98);
+  }
+
+  .card {
+    background-color: #8e7bff;
+    text-align: left;
+    align-items: normal;
+    width: 280px;
+  
+  }
+
+  h1 {
+    color: white;
+    padding-top: 60px;
+    font-size: 30px;
+  }
+
+  h3 {
+    color: white;
+    font-size: 13px;
+  }
+
+  .card img {
+    width: 65px;
+    padding-top: 5px;
   }
